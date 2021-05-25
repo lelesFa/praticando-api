@@ -23,7 +23,7 @@ public class PraticandoApiApplication  {
 	@ResponseBody
 	String home()
 	{
-		return "Rodando a aplicacao";
+		return "index.html";
 		}
 	
 	
