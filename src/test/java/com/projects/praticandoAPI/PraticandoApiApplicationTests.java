@@ -26,7 +26,7 @@ public class PraticandoApiApplicationTests {
     public void testHelloWorld() throws Exception {
         
         mockMvc
-                .perform(MockMvcRequestBuilders.get("/"))
+                .perform(MockMvcRequestBuilders.get("/hello"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.content().string("Hello World!"));
     }
