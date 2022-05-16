@@ -24,7 +24,7 @@ pipeline {
     }
     stage('Run tests against the container') {
       steps {
-        bat 'curl http://localhost:8585'
+        bat 'curl http://localhost:9090'
       }
     }
   }
